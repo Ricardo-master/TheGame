@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fc0505;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .board {
-    background-color: white;
+    background-color: red;
     border: 2px solid #333;
     border-radius: 10px;
     padding: 20px;
@@ -26,7 +26,7 @@ body {
     height: 160px;
     border: 1px solid #999;
     border-radius: 5px;
-    background-color: #eee;
+    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
