@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Juego - Tablero</title>
+    <title>El Juego</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="board">
-        <div class="pile">
-            <div class="cardpila">Pila</div>
+        <div class="fixed-cards">
+            <div class="card" style="background-image: 'url('img\card.png')'';"></div>
+            <div class="card" style="background-image: url('img\card.png');"></div>
+            <div class="card" style="background-image: url('img\card.png');"></div>
+            <div class="card" style="background-image: url('img\card.png');"></div>
+            
         </div>
-        <div class="card">1+</div>
-        <div class="card">1+</div>
-        <div class="card2">100-</div>
-        <div class="card2">100-</div>
+        <div class="pile">
+            <div class="pile-card">Pila</div>
+        </div>
+        <div class="hand">
+            <!-- Cartas del jugador se añaden automáticamente aquí -->
+        </div>
         <div class="control">
-            <button class="button">Jalar</button>
+            <button class="button start">Iniciar Juego</button>
+            <button class="button draw">Jalar Carta</button>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
+
